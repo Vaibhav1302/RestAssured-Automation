@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="restAssuredPractice.OAuthTest">
+      <class name="restAssuredPractice.EcommerceWebTest">
         <methods>
-          <include name="authTest"/>
+          <include name="E2ETest"/>
         </methods>
-      </class> <!-- restAssuredPractice.OAuthTest -->
+      </class> <!-- restAssuredPractice.EcommerceWebTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
